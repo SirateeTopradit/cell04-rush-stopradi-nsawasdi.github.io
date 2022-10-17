@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./image/dogeicon.ico" />
+        <title>stopradi</title>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <!-- <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="./css/owl.theme.default.min.css" /> -->
+        <link rel="stylesheet" href="./css/aos.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        />
+        <!-- Import the component -->
+        <script
+            type="module"
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+        ></script>
+        <!-- STYLE -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="card cookie-alert">
+            <div class="card-body">
+                <h5 class="card-title">&#x1F36A; <---- cookie</h5>
+                <p class="card-text">
+                    We use cookies to ensure you get the best experience on our
+                    website.
+                </p>
+                <div class="btn-toolbar justify-content-end">
+                    <a
+                        href="http://cookiesandyou.com/"
+                        target="_blank"
+                        class="btn btn-link text-warning"
+                        style="text-decoration: none;"
+                        >Learn more</a
+                    >
+                    <a href="#" class="btn btn-primary accept-cookies bg-warning"
+                        >Accept</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div class="container" id="top">
+            <header class="d-flex flex-wrap justify-content-center py-4 mb-4">
+                <a
+                    href="/"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+                >
+                    <span class="fs-4"><i class="fas fa-paw"></i> stopadi</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link active yee"
+                            >Home</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Educations" class="nav-link">Educations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skill" class="nav-link">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../nsawasdi/index.html" class="nav-link">nsawasdi</a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+
+        <div class="wrapper">
+            <a
+                href="https://www.facebook.com/siratee.topradit"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+                href="https://www.facebook.com/siratee.topradit"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+                href="https://www.facebook.com/siratee.topradit"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+            ></a>
+        </div>
+        <div class="up">
+            <a href="#top" class="icon-top totop"
+                ><i class="fa-sharp fa-solid fa-arrow-up"></i
+            ></a>
+        </div>
+        <section
+            class="about full-screen d-lg-flex justify-content-center align-items-center"
+            id="about"
+        >
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-lg-7 col-md-12 col-12 d-flex align-items-center"
+                    >
+                        <div class="about-text">
+                            <small class="small-text d-flex align-items-center"
+                                >Welcome to my portfolio website!!! &nbsp;<img
+                                    src="./image/hi.gif"
+                                    style="height: 15px"
+                            /></small>
+                            <h1 class="animated animated-text">
+                                <span class="mr-2">Hi there, I'm </span>
+                                <span class="typaff" id="type"></span>
+                            </h1>
+
+                            <p class="textShineBlack">
+                                Name: Siratee topradit<br />
+                                Nickname: Tae Email: tae.siratee@gmail.com<br />
+                                Tal: +66929720539<br />
+                                Email: tae.siratee@gmail.com<br />
+                                Birthday: 5 Fab 2005
+                            </p>
+                            <p>
+                                This Website works best with Google Chrome Web
+                                Browser
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <model-viewer
+                            id="paused-change-demo"
+                            camera-controls
+                            touch-action="pan-y"
+                            autoplay
+                            disable-zoom
+                            animation-name="Running"
+                            ar
+                            Pobrfill
+                            :focus-visible
+                            ar-modes="webxr scene-viewer"
+                            shadow-intensity="1"
+                            src="./image/RobotExpressive.glb"
+                            alt="An animated 3D model of a robot"
+                        ></model-viewer>
+                        <script>
+                            (() => {
+                                const modelViewer = document.querySelector(
+                                    "#paused-change-demo"
+                                );
+
+                                self.setInterval(() => {
+                                    modelViewer.animationName =
+                                        modelViewer.animationName === "Running"
+                                            ? "Wave"
+                                            : "Running";
+                                }, 1500.0);
+                            })();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="ed py-5 d-lg-flex justify-content-center align-items-center"
+            id="Educations"
+        >
+            <div
+                class="container d-lg-flex justify-content-center aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="100"
+            >
+                <h2 class="p-5">Educations 📖</h2>
+
+                <div class="timeline">
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2017</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3>
+                                <span>โรงเรียนสุขเจริญผล</span
+                                ><small class="textShineBlack"
+                                    >ระดับชั้นอนุบาล</small
+                                >
+                            </h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Minima ipsum alias magni, quod
+                                beatae sunt ab ut exercitationem maiores iusto.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2010</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3>
+                                <span>โรงเรียนประภามนตรี 3</span
+                                ><small class="textShineBlack"
+                                    >ระดับชั้นประถมศึกษา</small
+                                >
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Suscipit sequi sint temporibus
+                                recusandae voluptatum amet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-wrapper">
+                        <div class="timeline-yr">
+                            <span>2016</span>
+                        </div>
+                        <div class="timeline-info">
+                            <h3>
+                                <span
+                                    >โรงเรียนนวมินทราชินูทิศ
+                                    เตรียมอุดมศึกษาพัฒนาการ</span
+                                ><small class="textShineBlack"
+                                    >ระดับชั้นมัธยมศึกษา</small
+                                >
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Numquam, eveniet ipsam nobis
+                                quasi quisquam fuga.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="py-5">
+            <h2
+                class="pt-5 mb-4 d-lg-flex justify-content-center align-items-center"
+                id="skill"
+                data-aos="fade-up"
+                data-aos-delay="100"
+            >
+                Skill 🔧
+            </h2>
+            <section
+                class="pb-5 d-lg-flex justify-content-center align-items-center"
+            >
+                <div class="skilll" data-aos="fade-left" data-aos-delay="100">
+                    <p>HTML</p>
+                    <div class="skill-container">
+                        <div class="skill html bgShineBlack">
+                            50% &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="skill-container">
+                        <div class="skill css bgShineBlack">
+                            40% &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                    </div>
+
+                    <p>JavaScript</p>
+                    <div class="skill-container">
+                        <div class="skill js bgShineBlack">
+                            35% &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                    </div>
+
+                    <p>C++</p>
+                    <div class="skill-container">
+                        <div class="skill cpp bgShineBlack">
+                            60% &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="contact py-5" id="contact">
+            <div class="container" data-aos="fade-right" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-5 mr-lg-5 col-12">
+                        <div class="google-map w-100">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15008.247608171563!2d-73.97596275982565!3d40.776773355348865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2z4LmA4LiL4LmH4LiZ4LiX4Lij4Lix4Lil4Lie4Liy4Lij4LmM4LiB!5e0!3m2!1sth!2sth!4v1665929419837!5m2!1sth!2sth"
+                                width="400"
+                                height="300"
+                                frameborder="0"
+                                style="border: 0"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-form">
+                            <h2 class="mb-4">ติดต่อเรา</h2>
+
+                            <form
+                                action="https://formsubmit.co/tae.siratee@gmail.com"
+                                method="POST"
+                            >
+                                <input
+                                    type="text"
+                                    name="_honey"
+                                    style="display: none"
+                                />
+
+                                <input
+                                    type="hidden"
+                                    name="_captcha"
+                                    value="false"
+                                />
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            name="name"
+                                            placeholder="ชื่อ"
+                                            id="name"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            placeholder="Email"
+                                            id="email"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea
+                                            name="message"
+                                            rows="6"
+                                            class="form-control"
+                                            id="message"
+                                            placeholder="ข้อความ"
+                                            required
+                                        ></textarea>
+                                    </div>
+
+                                    <div class="ml-lg-auto col-lg-5 col-12">
+                                        <input
+                                            type="submit"
+                                            class="form-control submit-btn"
+                                            value="ส่ง"
+                                        />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="py-5 d-lg-flex justify-content-center align-items-center">
+            <small
+                >Made with <span>❤️</span> by
+                <a
+                    href="https://www.facebook.com/siratee.topradit"
+                    target="_blank"
+                    style="text-decoration: none"
+                    >Siratee topradit</a
+                >
+            </small>
+        </p>
+
+        <script src="./js/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- <script src="js/popper.min.js"></script> -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="js/Headroom.js"></script> -->
+        <script src="js/jQuery.headroom.js"></script>
+        <!-- <script src="js/owl.carousel.min.js"></script> -->
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </body>
+</html>

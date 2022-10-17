@@ -1,0 +1,161 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.menu {
+    background-image: url(https://cdn.discordapp.com/attachments/823913070409285633/1031197069215547412/unknown.png);
+}
+
+
+.col {
+    flex: 1 0 0%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li {
+    display: list-item;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+
+a:hover{
+    color: red;
+}
+.parallax {
+    display: flex;
+    height: 440px;
+    background-position:center;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url(https://cdn.discordapp.com/attachments/823913070409285633/1031187938802929734/unknown.png);
+    height: 250px;
+    background-position:center;
+    background-size: cover;
+    background-color: #04AA6D;
+}
+.name {
+    text-align: center;
+}
+.bio {
+    text-align: center;
+    font-size: 19px;
+}
+hr {
+    width: 500px;
+    height: 2px;
+    background-color: aqua;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+}
+.resume {
+    width: 650px;
+    margin-left: 500px;
+    justify-content: space-between;
+    display: flex;
+}
+.myname{
+    width: 300px;
+    align-items: baseline;
+}
+.pic{
+    display: flex;
+    width: 50%;
+}
+img.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px black;
+}
+img.profile {
+    width: 180px;
+    height: 150px;
+    display: block;
+   border-radius: 30%;
+}
+span.intra {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 35px;
+}
+.social ul{
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.social ul li{
+    display: inline;
+    background: rgb(255, 245, 245);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 152ms ease-in-out;
+}
+.social  ul li:hover {
+    background: #ccc;
+}
+h5 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+}
+.footer {
+    text-align:  center;
+    padding:  20px 0;
+    color: rgba(51, 51, 51, 0.5);
+}
+.contect {
+    text-align: center;
+}
+.bar{
+    width: 100%;
+  background-color: rgb(221, 221, 221);
+}
+.skills {
+    text-align: right;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    color: white; 
+}
+.html {width: 60%; background-color: #ff6600;}
+.css {width: 40%; background-color: #2196F3;} 
+.js {width: 20%; background-color: #ffd61dfd;}
+.py {width: 70%; background-color: #00ff95;}
+.c {width: 70%; background-color: #298ed1;}
+.ad {width: 80%; background-color: #028855;}
+.sf {width: 25%; background-color: #ffd970;}
